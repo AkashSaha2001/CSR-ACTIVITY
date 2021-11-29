@@ -1,6 +1,6 @@
 <?php
 session_start();
-$connection = mysqli_connect("localhost","root","","tcs");
+$connection = mysqli_connect("localhost","root","","project");
 $db = mysqli_select_db($connection, 'user');
 
 if(isset($_POST['submit']) && ($_POST['submit']=="ASSIGN"))
